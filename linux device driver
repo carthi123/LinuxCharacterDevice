@@ -1,6 +1,6 @@
 sudo insmod myDev.ko
 
-sudo mknod -c 120 0 /dev/myDev
+sudo mknod /dev/myDev -c 120 0 
 
 sudo chmod  a+r+w /dev/myDev
 
